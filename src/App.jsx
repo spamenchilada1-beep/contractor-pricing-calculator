@@ -43,8 +43,9 @@ function App() {
         <h1>Contractor Pricing Calculator</h1>
 
         <p className="subtitle">
-          Enter your job cost and markup to instantly see what you should
-          charge and how much gross profit you're making.
+          This is a free contractor pricing calculator for contractors and
+          small construction businesses that calculates selling price, gross
+          profit, and gross margin from job cost and markup.
         </p>
       </header>
 
