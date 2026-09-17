@@ -40,7 +40,7 @@ function App() {
       <header className="page-header">
         <div className="brand"><img className="brand-logo" src="/athena-calculators-logo.jpg" alt="ATHENA Calculators" /></div>
 
-        <p className="eyebrow">CONTRACTOR TOOL</p>
+        <p className="eyebrow">CONTRACTOR CALCULATOR</p>
 
         <h1>Contractor Pricing Calculator</h1>
 
