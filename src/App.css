@@ -37,17 +37,17 @@ main {
   margin-bottom: 32px;
 }
 
-.eyebrow {
+.brand {\n  display: block;\n  margin: 0 auto 26px;\n  text-align: center;\n}\n\n.brand-logo {\n  display: block;\n  width: min(360px, 82vw);\n  height: auto;\n  margin: 0 auto;\n}\n\n.eyebrow {
   margin: 0 0 10px;
   font-size: 0.78rem;
   font-weight: 800;
   letter-spacing: 0.12em;
-  color: #6b7280;
+  color: #b08a35;
 }
 
 h1 {
   margin: 0;
-  color: #111827;
+  color: #13213a;
   font-size: clamp(2rem, 6vw, 3rem);
   line-height: 1.08;
   letter-spacing: -0.04em;
@@ -56,7 +56,7 @@ h1 {
 .subtitle {
   max-width: 600px;
   margin: 16px auto 0;
-  color: #6b7280;
+  color: #536078;
   font-size: 1.05rem;
   line-height: 1.6;
 }
