@@ -124,18 +124,18 @@ function App() {
         </p>
         <div className="affiliate-links">
           <a
-            href="https://www.amazon.com/s?k=contractor+estimating+tools&tag=athena-20"
+            href="https://www.amazon.com/s?k=laser+measure+contractor+estimating+tools&tag=athena-20"
             target="_blank"
             rel="sponsored noopener"
           >
-            Shop contractor estimating tools <span>(paid link)</span>
+            Shop contractor estimating & measuring tools <span>(paid link)</span>
           </a>
           <a
-            href="https://www.amazon.com/s?k=contractor+safety+gear&tag=athena-20"
+            href="https://www.amazon.com/s?k=contractor+jobsite+measuring+tools&tag=athena-20"
             target="_blank"
             rel="sponsored noopener"
           >
-            Shop contractor safety gear <span>(paid link)</span>
+            Shop jobsite measuring tools <span>(paid link)</span>
           </a>
         </div>
       </section>
