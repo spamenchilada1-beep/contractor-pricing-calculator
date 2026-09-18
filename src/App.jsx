@@ -116,11 +116,11 @@ function App() {
       )}
 
       <section className="affiliate-card" aria-label="Recommended contractor supplies">
-        <p className="affiliate-label">CONTRACTOR SUPPLIES</p>
-        <h2>Need supplies for your next job?</h2>
+        <p className="affiliate-label">CONTRACTOR TOOLS &amp; GEAR</p>
+        <h2>Ready for the next step?</h2>
         <p>
-          Browse estimating tools, jobsite supplies, safety gear, and other
-          contractor essentials on Amazon.
+          Use your pricing numbers, then compare estimating tools and jobsite
+          safety gear on Amazon.
         </p>
         <div className="affiliate-links">
           <a
