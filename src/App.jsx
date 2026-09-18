@@ -115,6 +115,31 @@ function App() {
         </section>
       )}
 
+      <section className="affiliate-card" aria-label="Recommended contractor supplies">
+        <p className="affiliate-label">CONTRACTOR SUPPLIES</p>
+        <h2>Need supplies for your next job?</h2>
+        <p>
+          Browse estimating tools, jobsite supplies, safety gear, and other
+          contractor essentials on Amazon.
+        </p>
+        <div className="affiliate-links">
+          <a
+            href="https://www.amazon.com/s?k=contractor+estimating+tools&tag=athena-20"
+            target="_blank"
+            rel="sponsored noopener"
+          >
+            Shop contractor estimating tools <span>(paid link)</span>
+          </a>
+          <a
+            href="https://www.amazon.com/s?k=contractor+safety+gear&tag=athena-20"
+            target="_blank"
+            rel="sponsored noopener"
+          >
+            Shop contractor safety gear <span>(paid link)</span>
+          </a>
+        </div>
+      </section>
+
       <section className="explanation">
         <h2>Markup and margin are not the same thing.</h2>
 
@@ -138,6 +163,8 @@ function App() {
 
       <footer>
         <p>Built for contractors who want the numbers before they price the job.</p>
+        <p>As an Amazon Associate I earn from qualifying purchases.</p>
+        <a href="/privacy.html">Privacy Policy</a>
       </footer>
     </main>
   )
