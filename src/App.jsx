@@ -159,6 +159,27 @@ function App() {
         <div className="formula">
           <strong>Gross Margin</strong> = Gross Profit ÷ Selling Price
         </div>
+
+        <h2>How to use a contractor pricing calculator</h2>
+        <p>
+          Start with the total cost you expect the job to require before
+          markup. Enter the markup percentage you plan to apply, then use the
+          calculated selling price and gross profit as a pricing check.
+        </p>
+
+        <h2>Markup vs. gross margin</h2>
+        <p>
+          Markup is calculated from cost, while gross margin is calculated from
+          the final selling price. They describe different relationships, so a
+          20% markup does not produce a 20% gross margin.
+        </p>
+
+        <h2>Use your actual job cost</h2>
+        <p>
+          The calculator only knows the cost you enter. Include the costs that
+          belong in your pricing basis so the resulting selling price reflects
+          the numbers you are actually trying to recover.
+        </p>
       </section>
 
       <nav aria-label="More ATHENA Calculators">
