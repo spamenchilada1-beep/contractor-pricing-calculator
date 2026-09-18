@@ -161,6 +161,10 @@ function App() {
         </div>
       </section>
 
+      <nav aria-label="More ATHENA Calculators">
+        <p><strong>More ATHENA Calculators:</strong> <a href="https://concrete-calculator-cic.pages.dev/">Concrete Calculator</a> · <a href="https://paint-calculator-5wq.pages.dev/">Paint Calculator</a> · <a href="https://flooring-calculator.pages.dev/">Flooring Calculator</a></p>
+      </nav>
+
       <footer>
         <p>Built for contractors who want the numbers before they price the job.</p>
         <p>As an Amazon Associate I earn from qualifying purchases.</p>
