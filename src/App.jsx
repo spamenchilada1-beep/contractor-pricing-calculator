@@ -24,6 +24,8 @@ function App() {
       grossProfit,
       grossMargin,
     })
+
+    window.gtag?.('event', 'calculator_completed', { calculator: 'contractor_pricing' })
   }
 
   function formatCurrency(value) {
