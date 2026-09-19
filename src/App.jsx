@@ -183,7 +183,8 @@ function App() {
           the numbers you are actually trying to recover.
         </p>
 
-        <h2>More contractor pricing help</h2>
+        <h2>Contractor pricing planning</h2>
+        <p>Use your actual job cost as the starting point, then review the markup and resulting gross margin before sending a proposal. Keeping cost inputs consistent makes your pricing easier to review from job to job.</p>
         <p>See the step-by-step guide: <a href="/contractor-pricing-markup">Contractor Pricing Markup Guide</a></p>
       </section>
 
