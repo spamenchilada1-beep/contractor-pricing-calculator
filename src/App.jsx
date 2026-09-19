@@ -182,6 +182,9 @@ function App() {
           belong in your pricing basis so the resulting selling price reflects
           the numbers you are actually trying to recover.
         </p>
+
+        <h2>More contractor pricing help</h2>
+        <p>See the step-by-step guide: <a href="/contractor-pricing-markup.html">Contractor Pricing Markup Guide</a></p>
       </section>
 
       <nav aria-label="More ATHENA Calculators">
