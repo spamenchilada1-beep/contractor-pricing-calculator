@@ -184,7 +184,7 @@ function App() {
         </p>
 
         <h2>More contractor pricing help</h2>
-        <p>See the step-by-step guide: <a href="/contractor-pricing-markup.html">Contractor Pricing Markup Guide</a></p>
+        <p>See the step-by-step guide: <a href="/contractor-pricing-markup">Contractor Pricing Markup Guide</a></p>
       </section>
 
       <nav aria-label="More ATHENA Calculators">
