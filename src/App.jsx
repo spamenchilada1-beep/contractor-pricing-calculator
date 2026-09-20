@@ -142,6 +142,29 @@ function App() {
         </div>
       </section>
 
+      <section className="affiliate-card" aria-label="Contractor business software">
+        <p className="affiliate-label">CONTRACTOR BUSINESS SOFTWARE</p>
+        <h2>Ready to manage more than the numbers?</h2>
+        <p>
+          Explore ContractorCounter as another contractor-focused business tool.
+        </p>
+        <div className="affiliate-links">
+          <a
+            href="https://www.contractorcounter.com/?ref=athena"
+            target="_blank"
+            rel="sponsored noopener"
+            onClick={() =>
+              window.gtag?.('event', 'affiliate_click', {
+                program: 'contractor_counter',
+                calculator: 'contractor_pricing',
+              })
+            }
+          >
+            Explore ContractorCounter <span>(affiliate link)</span>
+          </a>
+        </div>
+      </section>
+
       <section className="explanation">
         <h2>Markup and margin are not the same thing.</h2>
 
