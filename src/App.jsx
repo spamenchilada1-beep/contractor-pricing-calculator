@@ -127,6 +127,7 @@ function App() {
         <div className="affiliate-links">
           <a
             href="https://www.amazon.com/s?k=laser+measure+contractor+estimating+tools&tag=athena-contractor-20"
+            onClick={() => window.gtag?.('event', 'affiliate_click', { program: 'amazon_associates', calculator: 'contractor_pricing', placement: 'laser_measure' })}
             target="_blank"
             rel="sponsored noopener"
           >
@@ -134,6 +135,7 @@ function App() {
           </a>
           <a
             href="https://www.amazon.com/s?k=contractor+jobsite+measuring+tools&tag=athena-contractor-20"
+            onClick={() => window.gtag?.('event', 'affiliate_click', { program: 'amazon_associates', calculator: 'contractor_pricing', placement: 'jobsite_measuring_tools' })}
             target="_blank"
             rel="sponsored noopener"
           >
