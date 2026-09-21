@@ -214,7 +214,7 @@ function App() {
       </section>
 
       <nav aria-label="More ATHENA Calculators">
-        <p><strong>More ATHENA Calculators:</strong> <a href="https://athena-public-platform.pages.dev/#tools">ATHENA Tools</a> · <a href="https://concrete-calculator-cic.pages.dev/">Concrete Calculator</a> · <a href="https://paint-calculator-5wq.pages.dev/">Paint Calculator</a> · <a href="https://flooring-calculator.pages.dev/">Flooring Calculator</a></p>
+        <p><strong>More ATHENA Calculators:</strong> <a href="https://athena-public-platform.pages.dev/tools/">ATHENA Tools</a> · <a href="https://concrete-calculator-cic.pages.dev/">Concrete Calculator</a> · <a href="https://paint-calculator-5wq.pages.dev/">Paint Calculator</a> · <a href="https://flooring-calculator.pages.dev/">Flooring Calculator</a></p>
       </nav>
 
       <footer>
