@@ -1,0 +1,34 @@
+name: Notify IndexNow
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - "index.html"
+      - "src/**"
+      - "public/**"
+      - "package.json"
+      - "sitemap.xml"
+
+jobs:
+  indexnow:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Notify IndexNow of updated pages
+        env:
+          INDEXNOW_KEY: b2d4f6a8c0123456789abcdef01234567
+        run: |
+          sleep 60
+          urls=(
+            "https://contractor-pricing-calculator.pages.dev/"
+            "https://contractor-pricing-calculator.pages.dev/contractor-pricing-markup"
+            "https://contractor-pricing-calculator.pages.dev/contractor-markup-vs-margin"
+          )
+          for url in "${urls[@]}"; do
+            code=$(curl -sS -G -o /dev/null -w "%{http_code}" \
+              "https://api.indexnow.org/indexnow" \
+              --data-urlencode "url=$url" \
+              --data-urlencode "key=$INDEXNOW_KEY")
+            echo "$code $url"
+          done
