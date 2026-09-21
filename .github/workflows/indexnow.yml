@@ -17,7 +17,7 @@ jobs:
     steps:
       - name: Notify IndexNow of updated pages
         env:
-          INDEXNOW_KEY: b2d4f6a8c0123456789abcdef01234567
+          INDEXNOW_KEY: 7c680c7966e835a2fe5d1ee89f31f6c3
         run: |
           sleep 60
           urls=(
